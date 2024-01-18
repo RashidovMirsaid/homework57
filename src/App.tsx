@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import UserForm from './components/UserForm/UserForm';
-import UserItem from './components/UserItem/UserItem';
 import { User } from './types';
 import Users from './components/Users/Users';
 
