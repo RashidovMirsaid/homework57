@@ -7,7 +7,7 @@ const UserItem: React.FC<User> = ({ name, email, active, role }) => {
 			<div className='card-body'>
 				<p className='card-title'>{name}</p>
 				<p className='card-title'>email {email}</p>
-				<p className='card-title'>active {active}</p>
+				<p className='card-title'>active {active ? 'y' : 'n'}</p>
 				<p className='card-title'>role {role}</p>
 			</div>
 		</div>
