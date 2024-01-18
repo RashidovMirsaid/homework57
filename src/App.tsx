@@ -1,5 +1,11 @@
+import UserForm from './components/UserForm/UserForm';
+
 function App() {
-	return <div className='App'>Hello word</div>;
+	return (
+		<>
+			<UserForm />
+		</>
+	);
 }
 
 export default App;
